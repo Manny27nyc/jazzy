@@ -2,7 +2,7 @@
 
 ##### Breaking
 
-* When building with Swift 5.6 and not passing `—module` to Jazzy, declarations
+* When building with Swift 5.6 and not passing `—-module` to Jazzy, declarations
   may not be correctly identified as undocumented and docs may include unwanted
   extensions.  Pass `—-module MyModuleName` to fix this.  
   [John Fairhurst](https://github.com/johnfairh)
@@ -11,6 +11,9 @@
 
 * Support using pre-generated symbolgraph files in Swift symbolgraph mode.  
   [Nathan Wong](https://github.com/esteluk)
+
+* Support Swift 5.6.  
+  [John Fairhurst](https://github.com/johnfairh)
 
 ##### Bug Fixes
 
